@@ -60,7 +60,8 @@ const SingleSelect = ({
   }, [getRootContext.JSONdata, setOptions]);
 
   useEffect(() => {
-    const isSelectedCategory = Object.keys(selectedCategory).length === 0;
+    const isSelectedCategory =
+      selectedCategory && Object.keys(selectedCategory).length === 0;
     if (isSelectedCategory) {
       selectInputRef.current.select.clearValue();
     }
@@ -83,7 +84,7 @@ const SingleSelect = ({
                 : titleSearchBarOnly
             }
           >
-            Nested Autocomplete
+            SellIntegro Marketplace
           </h1>
         </div>
 
