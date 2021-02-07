@@ -1,0 +1,49 @@
+.parent {
+  width: 500px;
+  overflow: hidden;
+  margin-left: 3rem;
+  padding: 0;
+}
+.slider-container {
+  /* if you want to have a scrollbar, you can add overflow here */
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 2rem;
+  padding: 3px;
+  scroll-behavior: smooth;
+}
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.btn {
+  position: absolute;
+  padding: 5px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: #e0e0e0;
+  text-align: center;
+  color: #323232;
+  border-radius: 50%;
+}
+.prev {
+  left: 3rem;
+}
+.next {
+  left: 37.6rem;
+}
+.disable {
+  opacity: 0;
+  pointer-events: none;
+}
+.child {
+  padding: 0;
+  text-align: center;
+  width: auto;
+  margin-right: 10px;
+  border-radius: 21px;
+}

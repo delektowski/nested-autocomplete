@@ -1,0 +1,981 @@
+[
+  {
+    "id": 1,
+    "keywords": "wzrost sprzedaży, eCommerce, strategia",
+    "name": "Strategie eCommerce",
+    "locked": false,
+    "badge": null,
+    "parent": null,
+    "description": "Gdzie sprzedawać? Polska, Niemcy, Rosja a może cała Europa czy świat? Co i za ile? model drop-shipping czy fulfillment? Jaki najlepszy plan działania ?",
+    "related": [],
+    "children": [
+      {
+        "id": 100,
+        "keywords": "konsultacje, audyt, strategia",
+        "name": "Konsultacje, audyty istniejącej lub tworzonej strategii",
+        "locked": true,
+        "badge": null,
+        "parent": "Strategie eCommerce",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 200,
+        "keywords": "projektowanie, architektura",
+        "name": "Projektowanie nowej strategii",
+        "locked": true,
+        "badge": null,
+        "parent": "Strategie eCommerce",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 300,
+        "keywords": "zarządzanie",
+        "name": "Zarządzanie wdrażaniem strategii",
+        "locked": false,
+        "badge": "Bestseller!",
+        "parent": "Strategie eCommerce",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 400,
+        "keywords": "wsparcie, pomoc, konsultacje",
+        "name": "Nie wiem, potrzebuję wsparcia",
+        "locked": false,
+        "badge": null,
+        "parent": "Strategie eCommerce",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 1000,
+    "keywords": "allegro, amazon, ebay, marketplace",
+    "name": "Marketplace",
+    "locked": false,
+    "badge": null,
+    "parent": null,
+    "description": "Jaki marketplace najlepszy do mojego asortymentu ? Wsparcie w wejściu na marketplace? Pomoc w publikacji ofert ? Integracje, automatyzacja ? ",
+    "related": [],
+    "children": [
+      {
+        "id": 1100,
+        "keywords": "Konsultacje i szkolenia",
+        "name": "Konsultacje i szkolenia",
+        "locked": false,
+        "badge": "Bestseller!",
+        "parent": "Marketplace",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 1200,
+        "keywords": "Usługi dot. Marketplace (zakładanie kont, obsługa)",
+        "name": "Usługi dot. Marketplace (zakładanie kont, obsługa)",
+        "locked": false,
+        "badge": "Bestseller!",
+        "parent": "Marketplace",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 1300,
+        "keywords": "Tworzenie własnego marketplace",
+        "name": "Tworzenie własnego marketplace",
+        "locked": true,
+        "badge": null,
+        "parent": "Marketplace",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 1400,
+        "keywords": "",
+        "name": "Marketplace’y w Europie na Świecie",
+        "locked": false,
+        "badge": null,
+        "parent": "Marketplace",
+        "description": "",
+        "related": [],
+        "children": [
+          {
+            "id": 1401,
+            "keywords": "amazon",
+            "name": "Amazon",
+            "locked": false,
+            "badge": "Bestseller!",
+            "parent": "Marketplace’y w Europie na Świecie",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 1402,
+            "keywords": "ebay",
+            "name": "eBay",
+            "locked": false,
+            "badge": null,
+            "parent": "Marketplace’y w Europie na Świecie",
+            "description": "",
+            "related": [],
+            "children": [
+              {
+                "id": 1412,
+                "keywords": "qwerty",
+                "name": "Marcin",
+                "locked": false,
+                "badge": null,
+                "parent": "eBay",
+                "description": "",
+                "related": [],
+                "children": [
+                  {
+                    "id": 1422,
+                    "keywords": "ebay",
+                    "name": "Piotr23",
+                    "locked": false,
+                    "badge": null,
+                    "parent": "Marcin",
+                    "description": "",
+                    "related": [],
+                    "children": []
+                  },
+                  {
+                    "id": 1432,
+                    "keywords": "ebay",
+                    "name": "Piotr89",
+                    "locked": false,
+                    "badge": null,
+                    "parent": "Marcin",
+                    "description": "",
+                    "related": [],
+                    "children": [
+                      {
+                        "id": 1469,
+                        "keywords": "ebay",
+                        "name": "Karol",
+                        "locked": false,
+                        "badge": null,
+                        "parent": "Piotr89",
+                        "description": "",
+                        "related": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 1403,
+            "keywords": "cdiscount",
+            "name": "CDiscount",
+            "locked": false,
+            "badge": "Nowość!",
+            "parent": "Marketplace’y w Europie na Świecie",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 1404,
+            "keywords": "allegro",
+            "name": "Allegro",
+            "locked": false,
+            "badge": null,
+            "parent": "Marketplace’y w Europie na Świecie",
+            "description": "",
+            "related": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2000,
+    "keywords": "ecommerce prestashop magento shopify",
+    "name": "Platformy sklepowe",
+    "locked": false,
+    "badge": null,
+    "parent": null,
+    "description": "Masz lub chceć mieć własny sklep ? Jaką platformę wybrać ? SaaS czy self-hosting?",
+    "related": [],
+    "children": [
+      {
+        "id": 2100,
+        "keywords": "sklepy internetowe",
+        "name": "Konsultacje",
+        "locked": false,
+        "badge": null,
+        "parent": "Platformy sklepowe",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 2200,
+        "keywords": "",
+        "name": "Usługi dot. platform sklepowych (tworzenie, obsługa",
+        "locked": false,
+        "badge": null,
+        "parent": "Platformy sklepowe",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 2300,
+        "keywords": "",
+        "name": "Sklepy SaaS",
+        "locked": false,
+        "badge": null,
+        "parent": "Platformy sklepowe",
+        "description": "",
+        "related": [],
+        "children": [
+          {
+            "id": 2310,
+            "keywords": "shoper",
+            "name": "Shoper",
+            "locked": false,
+            "badge": null,
+            "parent": "Sklepy SaaS",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 2320,
+            "keywords": "shoplo",
+            "name": "Shoplo",
+            "locked": false,
+            "badge": null,
+            "parent": "Sklepy SaaS",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 2330,
+            "keywords": "idosell",
+            "name": "IdoSell",
+            "locked": false,
+            "badge": null,
+            "parent": "Sklepy SaaS",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 2340,
+            "keywords": "skyshop",
+            "name": "SkyShop",
+            "locked": false,
+            "badge": null,
+            "parent": "Sklepy SaaS",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 2350,
+            "keywords": "bigcommerce",
+            "name": "BigCommerce",
+            "locked": false,
+            "badge": null,
+            "parent": "Sklepy SaaS",
+            "description": "",
+            "related": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 2400,
+        "keywords": "sklep internetowy open source self-hosted",
+        "name": "Open Source - Self hosted",
+        "locked": false,
+        "badge": null,
+        "parent": "Platformy sklepowe",
+        "description": "Shoper",
+        "related": [],
+        "children": [
+          {
+            "id": 2410,
+            "keywords": "shopware",
+            "name": "Shopeware",
+            "locked": false,
+            "badge": null,
+            "parent": "sklep internetowy open source self-hosted",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 2420,
+            "keywords": "magento",
+            "name": "Magento",
+            "locked": false,
+            "badge": null,
+            "parent": "sklep internetowy open source self-hosted",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 2430,
+            "keywords": "prestashop",
+            "name": "Prestashop",
+            "locked": false,
+            "badge": null,
+            "parent": "sklep internetowy open source self-hosted",
+            "description": "",
+            "related": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 2500,
+        "keywords": "enterprise level",
+        "name": "Enterprise Level",
+        "locked": false,
+        "badge": null,
+        "parent": "Platformy sklepowe",
+        "description": "",
+        "related": [],
+        "children": [
+          {
+            "id": 2510,
+            "keywords": "hybris",
+            "name": "Hybris",
+            "locked": false,
+            "badge": null,
+            "parent": "Enterprise Level",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 2520,
+            "keywords": "demandware",
+            "name": "Demandware",
+            "locked": false,
+            "badge": null,
+            "parent": "Enterprise Level",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 2530,
+            "keywords": "prestashop",
+            "name": "Prestashop",
+            "locked": false,
+            "badge": null,
+            "parent": "Enterprise Level",
+            "description": "",
+            "related": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3000,
+    "keywords": "seo, copyright, tłumaczenia, pim, katalog",
+    "name": "Product Content",
+    "locked": false,
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": [
+      {
+        "id": 3100,
+        "keywords": "tłumaczenia",
+        "name": "Tłumaczenia",
+        "locked": false,
+        "badge": null,
+        "parent": "Product Content",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 3200,
+        "keywords": "copyright",
+        "name": "Copyright",
+        "locked": false,
+        "badge": null,
+        "parent": "Product Content",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 3300,
+        "keywords": "seo, sem",
+        "name": "SEO",
+        "locked": false,
+        "badge": null,
+        "parent": "Product Content",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 4000,
+    "keywords": "podatki, prawo, księgowość, rejestracja VAT, NIP",
+    "name": "Prawo i Podatki",
+    "locked": false,
+    "badge": null,
+    "parent": null,
+    "description": "Rozliczanie podatków, rejestracja VAT Polska, Europa, jakie limity, wsparcie",
+    "related": [],
+    "children": [
+      {
+        "id": 4100,
+        "keywords": "rejestracja VAT, NIP, podatki",
+        "name": "Rejestracja VAT w krajach",
+        "locked": false,
+        "badge": null,
+        "parent": "Prawo i Podatki",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 4200,
+        "keywords": "rejestracja VAT, NIP, podatki",
+        "name": "Ewidencja sprzedaży WDT, SPTK",
+        "locked": false,
+        "badge": null,
+        "parent": "Prawo i Podatki",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 4300,
+        "keywords": "rejestracja VAT, NIP, podatki",
+        "name": "Konsultacje",
+        "locked": false,
+        "badge": null,
+        "parent": "Prawo i Podatki",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 5000,
+    "keywords": "projekty, zarządzanie",
+    "locked": false,
+    "name": "Project Management",
+    "badge": null,
+    "parent": null,
+    "description": "Szukasz zespołów do realizacji projektów? ",
+    "related": [],
+    "children": [
+      {
+        "id": 5100,
+        "keywords": "",
+        "name": "Zarządzanie projektami IT",
+        "locked": false,
+        "badge": null,
+        "parent": "Project Management",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 5200,
+        "keywords": "",
+        "name": "Zarządzanie projektami marketingowymi",
+        "locked": true,
+        "badge": null,
+        "parent": "Project Management",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 6000,
+    "keywords": "fulfillment, dropshipping",
+    "locked": false,
+    "name": "Fulfillment i Dropshipping",
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": [
+      {
+        "id": 6100,
+        "keywords": "",
+        "name": "Konsultacje",
+        "locked": false,
+        "badge": null,
+        "parent": "Fulfillment i Dropshipping",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 6200,
+        "keywords": "",
+        "name": "FC Centra Fulfillment",
+        "locked": false,
+        "badge": null,
+        "parent": "Fulfillment i Dropshipping",
+        "description": "",
+        "related": [],
+        "children": [
+          {
+            "id": 6210,
+            "keywords": "",
+            "name": "Polska",
+            "locked": false,
+            "badge": null,
+            "parent": "FC Centra Fulfillment",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 6210,
+            "keywords": "",
+            "name": "Niemcy",
+            "locked": false,
+            "badge": null,
+            "parent": "FC Centra Fulfillment",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 6230,
+            "keywords": "",
+            "name": "Hiszpania",
+            "locked": false,
+            "badge": null,
+            "parent": "FC Centra Fulfillment",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 6240,
+            "keywords": "",
+            "name": "UK",
+            "locked": false,
+            "badge": null,
+            "parent": "FC Centra Fulfillment",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 6250,
+            "keywords": "",
+            "name": "Europa",
+            "locked": false,
+            "badge": null,
+            "parent": "FC Centra Fulfillment",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 6260,
+            "keywords": "",
+            "name": "Świat",
+            "locked": false,
+            "badge": null,
+            "parent": "FC Centra Fulfillment",
+            "description": "",
+            "related": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7000,
+    "keywords": "logistyka",
+    "locked": false,
+    "name": "Logistyka",
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": [
+      {
+        "id": 7100,
+        "keywords": "",
+        "name": "Usługi paczkowe",
+        "locked": false,
+        "badge": null,
+        "parent": "Logistyka",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 7200,
+        "keywords": "",
+        "name": "Przesyłki paletowe i gabarytowe",
+        "locked": false,
+        "badge": null,
+        "parent": "Logistyka",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 7300,
+        "keywords": "",
+        "name": "Usługi high volume",
+        "locked": false,
+        "badge": null,
+        "parent": "Logistyka",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 7400,
+        "keywords": "",
+        "name": "Przesyłki specjalistyczne (ADR, Fragile)",
+        "locked": false,
+        "badge": null,
+        "parent": "Logistyka",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 8000,
+    "keywords": "baselinker, erpbox, oms",
+    "locked": false,
+    "name": "Systemy OMS (Order Management System)",
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": [
+      {
+        "id": 8100,
+        "keywords": "Wdrażanie OMS",
+        "name": "Wdrażanie OMS",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy OMS (Order Management System)",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 8200,
+        "keywords": "Szkolenia i konsultacje",
+        "name": "Szkolenia i konsultacje",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy OMS (Order Management System)",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 8300,
+        "keywords": "Usługi dot. Baselinker",
+        "name": "Usługi dot. Baselinker",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy OMS (Order Management System)",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 8400,
+        "keywords": "Usługi dot. Plentymarkets",
+        "name": "Usługi dot. Plentymarkets",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy OMS (Order Management System)",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 8500,
+        "keywords": "Usługi dot. Linnworks",
+        "name": "Usługi dot. Linnworks",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy OMS (Order Management System)",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 8600,
+        "keywords": "",
+        "name": "Inne",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy OMS (Order Management System)",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 9000,
+    "keywords": "systemy biznesowe, erp, mrp",
+    "locked": false,
+    "name": "Systemy biznesowe ERP",
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": [
+      {
+        "id": 9100,
+        "keywords": "Wdrażanie",
+        "name": "Wdrażanie",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy biznesowe ERP",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 9200,
+        "keywords": "Szkolenia i konsultacje",
+        "name": "Szkolenia i konsultacje",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy biznesowe ERP",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 9300,
+        "keywords": "",
+        "name": "Producenci",
+        "locked": false,
+        "badge": null,
+        "parent": "Systemy biznesowe ERP",
+        "description": "",
+        "related": [],
+        "children": [
+          {
+            "id": 9310,
+            "keywords": "subiekt, navireo, sgt",
+            "name": "Insert",
+            "locked": false,
+            "badge": null,
+            "parent": "Producenci",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 9320,
+            "keywords": "optima, xl",
+            "name": "Comarch",
+            "locked": false,
+            "badge": null,
+            "parent": "Producenci",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 9330,
+            "keywords": "sbo, sap b1, sapb1 ",
+            "name": "SAP B1",
+            "locked": false,
+            "badge": null,
+            "parent": "Producenci",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 9340,
+            "keywords": "nav",
+            "name": "Microsoft Dynamics NAV",
+            "locked": false,
+            "badge": null,
+            "parent": "Producenci",
+            "description": "",
+            "related": [],
+            "children": []
+          },
+          {
+            "id": 9340,
+            "keywords": "sage 50, sage 100, sage 200",
+            "name": "Sage",
+            "locked": false,
+            "badge": null,
+            "parent": "Producenci",
+            "description": "",
+            "related": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10000,
+    "keywords": "system wms",
+    "locked": false,
+    "name": "System WMS",
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": []
+  },
+  {
+    "id": 11000,
+    "keywords": "marketing automation",
+    "locked": false,
+    "name": "Platformy wspierające marketing",
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": [
+      {
+        "id": 11100,
+        "keywords": "Google Ads",
+        "name": "Google Ads",
+        "locked": false,
+        "badge": null,
+        "parent": "Platformy wspierające marketing",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 11200,
+        "keywords": "Facebook",
+        "name": "Facebook",
+        "locked": false,
+        "badge": null,
+        "parent": "Platformy wspierające marketing",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 11300,
+        "keywords": "Instagram",
+        "name": "Instagram",
+        "locked": false,
+        "badge": null,
+        "parent": "Platformy wspierające marketing",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 12000,
+    "keywords": "b2b, hurtownie",
+    "locked": false,
+    "name": "B2B",
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": [
+      {
+        "id": 12100,
+        "keywords": "Rozwiązania wsparcia współpracy z hurtowniami",
+        "name": "Rozwiązania wsparcia współpracy z hurtowniami",
+        "locked": false,
+        "badge": null,
+        "parent": "B2B",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 12200,
+        "keywords": "Rozwiązania do wsparcia współpracy między podmiotami zależnymi",
+        "name": "Rozwiązania do wsparcia współpracy między podmiotami zależnymi",
+        "locked": false,
+        "badge": null,
+        "parent": "B2B",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 13000,
+    "keywords": "Usługi programistyczne",
+    "locked": false,
+    "name": "Usługi programistyczne",
+    "badge": null,
+    "parent": null,
+    "description": "",
+    "related": [],
+    "children": [
+      {
+        "id": 13100,
+        "keywords": "Integracje międzysystemowe",
+        "name": "Integracje międzysystemowe",
+        "locked": false,
+        "badge": null,
+        "parent": "Usługi programistyczne",
+        "description": "",
+        "related": [],
+        "children": []
+      },
+      {
+        "id": 13200,
+        "keywords": "Tworzenie systemów informatycznych",
+        "name": "Tworzenie systemów informatycznych",
+        "locked": false,
+        "badge": null,
+        "parent": "Usługi programistyczne",
+        "description": "",
+        "related": [],
+        "children": []
+      }
+    ]
+  }
+]
