@@ -132,7 +132,7 @@
               {
                 "id": 1412,
                 "keywords": "qwerty",
-                "name": "Marcin",
+                "name": "nesting1",
                 "locked": false,
                 "badge": null,
                 "parent": "eBay",
@@ -142,10 +142,10 @@
                   {
                     "id": 1422,
                     "keywords": "ebay",
-                    "name": "Piotr23",
+                    "name": "nesting2",
                     "locked": false,
                     "badge": null,
-                    "parent": "Marcin",
+                    "parent": "nesting1",
                     "description": "",
                     "related": [],
                     "children": []
@@ -153,20 +153,20 @@
                   {
                     "id": 1432,
                     "keywords": "ebay",
-                    "name": "Piotr89",
+                    "name": "nesting3",
                     "locked": false,
                     "badge": null,
-                    "parent": "Marcin",
+                    "parent": "nesting2",
                     "description": "",
                     "related": [],
                     "children": [
                       {
                         "id": 1469,
                         "keywords": "ebay",
-                        "name": "Karol",
+                        "name": "nesting4",
                         "locked": false,
                         "badge": null,
-                        "parent": "Piotr89",
+                        "parent": "nesting3",
                         "description": "",
                         "related": [],
                         "children": []
